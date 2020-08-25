@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+/* {
+	box-sizing: border-box;
+
+}*/
+
+body {
+	background-image: url("../images/Fond_fara_rama.jpg");
+	background-position: center top;
+  	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: cover;
+	width:100%;
+	height: auto;
+	
+	}
+	
+ @media (max-width:768px){
+	body {
+	background-image: url("../images/Fond_fara_rama_small.jpg");
+	background-position: center top;
+  	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: cover;
+	width:100%;
+	height: auto;
+	}
+}
+	
+	#data {
+		float:left;
+		height:100%;
+		width:50%;
+		position:fixed;
+		text-align: left;
+		font-family: 'Caveat Brush', cursive;
+		color:#6e4d43;
+		font-size:4vw;
+		margin: 10px;
+		padding:5px;
+		top:320px;
+	}
+	#invitatie {
+		float:right;
+		height:100%;
+		width:50%;
+		font-family: 'Gloria Hallelujah', cursive;
+		color:#402b25;
+		font-size: 4vw;
+		text-align: center;
+		margin:10px;
+		border:1vw solid white;
+		padding: 10px;
+	}
+	
+	#rosa {
+		font-family: 'Shadows Into Light', cursive;
+		font-size:6vw;
+		text-shadow: 2px 2px #742545;
+		color:#c95986;
+	}
+	#parinti {
+		font-family: 'Shadows Into Light', cursive;
+		font-size:5vw;
+		color:#c95986;
+	}
+	
+
+	#telefon {
+		clear: both;
+		width:50%;
+		float: right;
+		font-family: 'Nanum Brush Script', cursive;
+		color:#6e4d43;
+		text-align: center;
+		font-size:3.5vw;
+	}
+
+
+img {
+  max-width: 14vw;
+  position: relative;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+.creator {
+
+	font-size: 1.5vw;
+	clear: both;
+	float: right;
+	margin-right: 1vw;
+	padding-right: 1vw;
+}
+
+/*font-family: 'Covered By Your Grace', cursive;
+font-family: 'Shadows Into Light', cursive; /Rosa si parinti
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Nanum Brush Script', cursive; /CONFIRMARI
+font-family: 'Nothing You Could Do', cursive; /
+*/
+
+
