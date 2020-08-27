@@ -25,6 +25,7 @@ body {
   	background-size: cover;
 	width:100%;
 	height: auto;
+	
 	}
 }
 	
@@ -45,25 +46,48 @@ body {
 		float:right;
 		height:100%;
 		width:50%;
+		opacity:1;
+	
+		/* margin:10px;
+		padding: 10px; */
+		/* background-image: url("../images/Fond_fara_rama.jpg");
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		filter:blur(3px);
+		-webkit-filter: blur(3px);
+    	-moz-filter: blur(3px);
+    	-o-filter: blur(3px);
+		-ms-filter: blur(3px); */
+		
+	}
+	/* @media (max-width:768px){
+		#invitatie {
+		background-image: url("../images/Fond_fara_rama_small.jpg");
+		} */
+	
+	#text_invitatie{
+		border:1vw solid white;
 		font-family: 'Gloria Hallelujah', cursive;
 		color:#402b25;
-		font-size: 5vw;
+		font-size: 5.5vw;
 		text-align: center;
-		margin:10px;
-		border:1vw solid white;
-		padding: 10px;
+		opacity:1;
+		
 	}
-	
 	#rosa {
 		font-family: 'Shadows Into Light', cursive;
-		font-size:6.5vw;
+		font-size:7vw;
 		/*text-shadow: 2px 2px #742545;*/
+		font-weight: bold;
 		color:#c95986;
 	}
 	#parinti {
 		font-family: 'Shadows Into Light', cursive;
-		font-size:6.5vw;
-		color:#c95986;
+		font-size:7vw;
+		color:#f9ecf1;
+		font-weight: bold;
 	}
 	
 
