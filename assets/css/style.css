@@ -6,7 +6,7 @@
 }*/
 
 body {
-	background-image: url("../images/Fond_fara_rama.jpg");
+	background-image: url("../images/Fond_nou.jpg");
 	background-position: center top;
   	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -18,7 +18,7 @@ body {
 	
  @media (max-width:768px){
 	body {
-	background-image: url("../images/Fond_fara_rama_small.jpg");
+	background-image: url("../images/Fond_nou_small.jpg");
 	background-position: center top;
   	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -32,12 +32,12 @@ body {
 	#data {
 		float:left;
 		height:100%;
-		width:50%;
+		width:55%;
 		position:fixed;
 		text-align: left;
 		font-family: 'Caveat Brush', cursive;
 		color:#6e4d43;
-		font-size:5vw;
+		font-size:6vw;
 		margin: 1vw;
 		padding:1vw;
 		top:45%;
@@ -45,11 +45,11 @@ body {
 	#invitatie {
 		float:right;
 		height:100%;
-		width:50%;
+		width:40%;
 		opacity:1;
 	
-		/* margin:10px;
-		padding: 10px; */
+		margin:2%;
+		padding: 2%;
 		/* background-image: url("../images/Fond_fara_rama.jpg");
 		background-position: center top;
 		background-repeat: no-repeat;
@@ -68,7 +68,7 @@ body {
 		} */
 	
 	#text_invitatie{
-		border:1vw solid white;
+		/* border:1vw solid white; */
 		font-family: 'Gloria Hallelujah', cursive;
 		color:#402b25;
 		font-size: 5.5vw;
@@ -86,7 +86,7 @@ body {
 	#parinti {
 		font-family: 'Shadows Into Light', cursive;
 		font-size:7vw;
-		color:#f9ecf1;
+		color:#c95986/*#f9ecf1*/;
 		font-weight: bold;
 	}
 	
@@ -98,7 +98,7 @@ body {
 		font-family: 'Nanum Brush Script', cursive;
 		color:#6e4d43;
 		text-align: center;
-		font-size:5vw;
+		font-size:6vw;
 	}
 
 
